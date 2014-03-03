@@ -9,7 +9,7 @@ Les auteurs du projet sont:
 * Georges Dufour - georges@tymate.com
 * Sebastien Deswarte - sebastiendeswarte@hotmail.fr
 
-- Vision du projet
+**Vision du projet**
 
 VeryBagTrip est une application qui permet d’organiser un voyage dans sa globalité. Le site initialement disponible en français, s’adresse aux séjours de toutes durées qui demandent une organisation rigoureuse.
 Le site est un outil d’organisation et de planification dans un contexte communautaire permettant l’échange et l’enrichissement des informations.   
