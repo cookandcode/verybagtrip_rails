@@ -1,0 +1,14 @@
+!!!
+%html
+  %head
+    %title="VeryBagTrip"
+    = stylesheet_link_tag "application", :media => "all"
+    = csrf_meta_tags
+    = javascript_include_tag "application"
+    -#%meta{name: "viewport", content: "initial-scale=1, width: device-width, maximum-scale: 1, minimum-scale: 1, user-scalable: no"}
+
+  %body
+    -#= render "layouts/header"
+    #site-wrapper
+      = yield
+    -#= render "layouts/footer"
