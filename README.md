@@ -2,7 +2,7 @@
 VeryBagTrip est un projet réalisé dans le cadre pédagogique de deuxième année
 de Master en Management de Projets Web.
 
-Les auteurs du projet sont:
+Auteurs du projet:
 
 * Teddy Lecaillon - teddy.lecaillon@gmail.com
 * Karine Houmadi - karine.houmadi@gmail.com
