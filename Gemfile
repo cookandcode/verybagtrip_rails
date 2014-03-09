@@ -37,4 +37,7 @@ gem "haml-rails"
 #Gem for heroku
 gem 'rails_12factor', group: :production
 
+#Monitoring
+gem 'newrelic_rpm'
+
 ruby "2.0.0"
