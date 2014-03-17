@@ -8,16 +8,25 @@
       = link_to "Découvre le Monde", "#", class: "btn-vbt is-big"
   %section.page2
     .page-container
-      %h2="Recherche des destinations"
-      %p.lead
-        ="Trouve toutes les informations nécessaires à propos de tes destinations désirées ainsi que l'avis de la communauté..."
+      .content 
+        %h2="Recherche des destinations"
+        %p.lead
+          ="Trouve toutes les informations nécessaires à propos de tes destinations désirées ainsi que l'avis de la communauté..."
+        %form.form-inline{:action => "", role: "form"}
+          .input-group
+            %input{type: "text", placeholder: "Australie", class: "form-control"}
+            %span.input-group-btn  
+              %button{type: "submit", class: "btn btn-default"}
+                = "Chercher" 
   %section.page3
     .page-container
-      %h2="Budgétise ton Tour du Monde"
-      %p.lead
-        ="Prends connaissance du coût de la vie dans ces différents pays et prévois de manière précise ton abudget voyage..."
+      .content
+        %h2="Budgétise ton Tour du Monde"
+        %p.lead
+          ="Prends connaissance du coût de la vie dans ces différents pays et prévois de manière précise ton abudget voyage..."
   %section.page4
     .page-container
-      %h2="Pars l'esprit tranquille"  
-      %p.lead
-        ="Grâce à la richesse des informations, prépares tous les papiers indispensables et pars confiant..."
+      .content
+        %h2="Pars l'esprit tranquille"  
+        %p.lead
+          ="Grâce à la richesse des informations, prépares tous les papiers indispensables et pars confiant..."

@@ -8,11 +8,25 @@
  * __HEADER
 /* 
 */
-  // #header-page {
-  //   position: fixed;
-  //   top: 0;
-  //   width: 100%;
-  // }
+  #header-page .navbar-fixed-top {
+    background: rgba(252, 252, 252, .85);
+    padding: 15px 0;
+    .brand-name {
+      margin-top: 2px;
+    }
+    ul > li {
+      display: inline-block;
+      margin-left: 20px;
+      margin-top: 2px;
+      > a {
+        color: #444;
+        &:hover {
+          color: $link-color;
+          border-color: $alt-blue;
+        }
+      }
+    }
+  }
 
 /*
  * __MAIN
@@ -35,28 +49,40 @@
   }
   
   .page1 {
-    background: image-url("6H.jpg");
+    background: image-url("backpacker.jpg");
     background-size: cover;
   }
   .page2 {
-    background: image-url("trip.JPG");
+    background: image-url("backpacker4.jpg");
     background-size: cover;
   }
   .page3 {
-    background: image-url("combi.JPG");
+    background: image-url("backpacker3.jpg");
     background-size: cover;
   }
   .page4 {
-    background: image-url("trip.JPG");
+    background: image-url("backpacker.jpg");
     background-size: cover;
+  }
+
+  .page-container {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+  }
+
+  .content {
+    color: #fff;
+  }
+
+  .lead {
+    font-size: 26px;
+    line-height: 1.6;
   }
 
   .page1 {
     text-align: center;
     .page-container {
-      display: table-cell;
-      vertical-align: middle;
-      width: 50%;
       margin: 0 auto;
     }
     h1 {
@@ -69,6 +95,30 @@
       > strong {
         font-family: $bold;
       }
+    }
+  }
+
+  .page2 {
+    .content {
+      float: right;
+      width: 40%;
+      margin-right: 10%;
+    }
+  }
+
+  .page3 {
+    .content {
+      float: left;
+      width: 40%;
+      margin-left: 10%;
+      color: $dark-blue;
+    }
+  }
+
+  .page4 {
+    text-align: center;
+    .content {
+      color: #fff;
     }
   }
 

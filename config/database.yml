@@ -3,3 +3,5 @@ development:
   encoding: unicode
   database: verybagtrip_development
   pool: 5
+  username: tailor
+  password: tailor

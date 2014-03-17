@@ -32,9 +32,8 @@
   h4, .h4,
   h5, .h5,
   h6, .h6 {
-    font-family: $bold;
+    font-family: $typo-heading;
     font-weight: 600;
-    color: $text-color;
   }
 
   h1, .h1 {
@@ -43,8 +42,8 @@
   }
 
   h2, .h2 {
-    font-size: 30px;
-    line-height: 1.5;
+    font-size: 48px;
+    line-height: 1.8;
   }
 
   h3, .h3 {
