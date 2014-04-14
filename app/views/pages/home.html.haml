@@ -16,11 +16,11 @@
           .input-group
             %input{type: "text", placeholder: "Australie", class: "form-control"}
             %span.input-group-btn  
-              %button{type: "submit", class: "btn btn-default"}
+              %button{type: "submit", class: "btn-vbt contrast no-left-corner"}
                 = "Chercher" 
   %section.page3
     .page-container
-      .content
+      .content.col-md-6.col-sm-12.col-md-offset-1
         %h2="Budgétise ton Tour du Monde"
         %p.lead
           ="Prends connaissance du coût de la vie dans ces différents pays et prévois de manière précise ton abudget voyage..."
@@ -30,3 +30,5 @@
         %h2="Pars l'esprit tranquille"  
         %p.lead
           ="Grâce à la richesse des informations, prépares tous les papiers indispensables et pars confiant..."
+        .text-center
+          = link_to "Commence l'expérience maintenant", "#", class: "btn-vbt is-big"

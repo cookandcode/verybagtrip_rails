@@ -144,8 +144,17 @@
 
 .btn-vbt.contrast {
   background-color: $contrast-color;
+  border: 4px solid $alt-blue;
   &:hover {
     background: lighten($contrast-color, 10%);
-    border: 1px solid darken($contrast-color, 5%);
+    border: 4px solid darken($contrast-color, 5%);
   }
 }
+
+.no-left-corner {
+  @include border-radius(0px 8px 8px 0px);
+  border-left: 0;
+}
+
+
+

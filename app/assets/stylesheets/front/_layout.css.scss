@@ -61,7 +61,7 @@
     background-size: cover;
   }
   .page4 {
-    background: image-url("backpacker.jpg");
+    background: image-url("backpacker-5.jpg");
     background-size: cover;
   }
 
@@ -91,7 +91,8 @@
       margin-bottom: 100px;
       font-family: $light;
       line-height: 1.2;
-      color: $dark-blue;
+      color: #fff;
+      text-shadow: 0px 0px 200px rgba(0,0,0,.5), 0px 0px 100px rgba(0,0,0,.5), 0px 0px 50px rgba(0,0,0,.5), 0px 2px 0px rgba(0,0,0,.2);
       > strong {
         font-family: $bold;
       }
@@ -108,9 +109,6 @@
 
   .page3 {
     .content {
-      float: left;
-      width: 40%;
-      margin-left: 10%;
       color: $dark-blue;
     }
   }
